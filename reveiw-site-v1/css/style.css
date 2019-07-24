@@ -31,14 +31,48 @@ body, html {
     outline: none;
   }
 }
+.nav_song{
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  font-family: Roboto Slab;
+  font-size: 2em;
+  color: #FF6400;
+  :focus{
+    outline: none;
+  }
+}
+.nav_Movie{
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  font-family: Roboto Slab;
+  font-size: 2em;
+  color: #FF6400;
+  :focus{
+    outline: none;
+  }
+}
 
 p{
   margin: 0;
   padding: 0;
 }
 
+.hr1{
+  color: #F8F8F8;
+  width: 300px;
+}
 
 .nav_home:focus{
+  outline: none;
+}
+.nav_song:focus{
+  outline: none;
+}
+.nav_Movie:focus{
   outline: none;
 }
 
