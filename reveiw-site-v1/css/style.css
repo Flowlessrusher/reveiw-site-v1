@@ -11,12 +11,35 @@ body, html {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   display: block;
   position: fixed;
+  top: 0px;
 }
 
 .con_slideshow {
   background-color: white;
-  height: 70%;
-  width: 100%;
   display: block;
 }
+
+.nav_home{
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  font-family: Roboto Slab;
+  font-size: 2em;
+  color: #FF6400;
+  :focus{
+    outline: none;
+  }
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav_home:focus{
+  outline: none;
+}
+
 /*# sourceMappingURL=style.css.map */
