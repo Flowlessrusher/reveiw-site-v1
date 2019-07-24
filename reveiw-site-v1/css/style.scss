@@ -1,0 +1,20 @@
+body,html {
+  margin: 0;
+  padding: 0;   
+}
+
+.nav_bar{
+    background-color: #F8F8F8;
+    width: 100%;   
+    height: 70px; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    position: fixed;
+}
+.con_slideshow{
+  background-color: white;
+  height: 70%;
+  width: 100%;
+  display: block;
+}
+
